@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="DarkMode()">Dark Mode</button>
+    <button onclick="LightMode()">Light Mode</button>
+    <button onclick="myFunction()">Enter your age!</button>
+    <p id="demo"></p>
+
+
+    <script>
+        function DarkMode(){
+            document.body.style.backgroundColor= "black";
+        }
+        function LightMode(){
+            document.body.style.backgroundColor = "white"
+        }
+        function myFunction(){
+            let personAge= prompt("Please, enter your age!")
+            console.log="personAge"
+            if (personAge<18){
+                alert("Unfortunately, you are not old enough.")
+            }
+          
+        }
+    
+      
+    </script>
+</body>
+</html>
